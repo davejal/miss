@@ -55,9 +55,9 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'db_name'),
-            'username'  => env('DB_USERNAME', 'db_user'),
-            'password'  => env('DB_PASSWORD', 'db_password'),
+            'database'  => env('DB_DATABASE', 'miss'),
+            'username'  => env('DB_USERNAME', 'root'),
+            'password'  => env('DB_PASSWORD', 'P@ssw0rD'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
